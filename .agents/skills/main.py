@@ -1,7 +1,7 @@
 from foundry_local_sdk import Configuration, FoundryLocalManager
 
 # 1. Créer la configuration
-config = Configuration(app_name="mon-app")
+config = Configuration(app_name="monapp")
 
 # 2. Initialiser le Manager
 FoundryLocalManager.initialize(config)
